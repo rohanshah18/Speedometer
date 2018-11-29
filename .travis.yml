@@ -1,4 +1,5 @@
 os: osx
+language: Swift
 osx_image: xcode10.1
 notifications:
   email:
