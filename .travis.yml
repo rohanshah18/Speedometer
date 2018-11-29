@@ -1,2 +1,2 @@
-os: osx
+os: swift
 osx_image: xcode10.1
