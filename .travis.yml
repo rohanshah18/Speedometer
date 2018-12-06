@@ -1,5 +1,5 @@
 os: osx
-language: objective-c
+language: Swift
 osx_image: xcode10.1
 notifications:
   email:
