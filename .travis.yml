@@ -7,3 +7,4 @@ notifications:
 xcode_project: Speedometer.xcodeproj # path to your xcodeproj folder
 xcode_scheme: SpeedometerTests
 xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+nvm use --delete-prefix v10.13.0 --silent
