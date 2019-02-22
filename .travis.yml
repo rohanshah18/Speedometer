@@ -1,4 +1,4 @@
 os: osx
 osx_image: xcode10.1
 language: swift
-script: xcodebuild clean build test -workspace Desktop/Speedometer.xcworkspace -scheme "Speedometer" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.1,name=iPhone XR" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQURIED=NO
+script: xcodebuild clean build test -workspace Users/rohanshah/Desktop/Speedometer/Speedometer.xcodeproj/Speedometer.xcworkspace -scheme "Speedometer" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=12.1,name=iPhone XR" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQURIED=NO
